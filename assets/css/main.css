@@ -31,7 +31,7 @@ body{
 }
 .title-box{
 	text-align: center;
-	padding: 100px 0 50px;
+	padding: 35px 0 50px;
 	text-transform: uppercase;
 }
 .title-box p{
@@ -428,7 +428,7 @@ body{
 	font-weight: 300;
 }
 .inner-header .breadcrumb>.active{
-	color: #fabe12;
+	color: #000;
 }
 .inner-header .breadcrumb a{
 	color: #fff;
