@@ -1,8 +1,10 @@
-body{
+body,html{
 	background-color: #ededed;
 	font-family: 'Oswald';
 	position: relative;
 	margin-top: 0;
+	overflow-x:hidden;
+	width: auto;
 }
 
 /*======================================================================
@@ -823,6 +825,9 @@ body{
 	.team-img{
 		width: 100%;
 	}
+	.boxed {
+		margin-left:3% !important; 
+	}
 }
 /*CTA*/
 /*****/
@@ -838,9 +843,15 @@ body{
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 10px;
+	width:auto;
+	overflow-x:hidden;
 }
 .cta .btn-robot:hover{
 	color: #fabe12;
+}
+
+.modal {
+	color:black !important;
 }
 @media (max-width: 677px){
 	.cta{
