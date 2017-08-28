@@ -1061,7 +1061,51 @@
                                 </p>
                             </div>
                             <div class="col-sm-3">
-                                <a class="btn btn-robot btn-block" href="#">Send us your mail</a>
+                                <button type="button" class="btn btn-robot btn-block"  data-toggle="modal" data-target="#myModal">Send your Message here!</button>
+
+                                <!-- Modal -->
+                                <div id="myModal" class="modal fade" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Feel free to fill this form.</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <form>
+                                              <div class="form-group">
+                                                <label for="email">Name:</label>
+                                                <input name="fname" type="email" class="form-control" id="email">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="email">Country:</label>
+                                                <input name="lname" type="email" class="form-control" id="email">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="pwd">Phone No.:</label>
+                                                <input name="phone" type="number" class="form-control" id="phone">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" id="email">
+                                              </div>
+
+                                              <div class="form-group">
+                                                <textarea name="message" class="form-control">Enter message here...</textarea>
+                                              </div>
+                                              <div class="checkbox">
+                                                <label><input type="checkbox"> Not a robot!</label>
+                                              </div>
+                                        </form>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="submit"  class="btn btn-default" style='float: left'>Submit</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+
                             </div>
                         </div>
                     </div>
