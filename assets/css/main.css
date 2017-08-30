@@ -102,7 +102,13 @@ body,html{
 	padding-bottom: 6px;
 }
 
-
+a:link {
+    text-decoration: none;
+     color: white;
+ }
+/*a:hover {
+    text-decoration: underline;
+}*/
 
 
 /*======================================================================
@@ -637,7 +643,13 @@ body,html{
     transition: all .5s;
 }
 
-
+p.main {
+    text-align: justify;
+    padding-right: 3%;
+    color: #eded;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
 
 /*======================================================================
 ##		Contact
