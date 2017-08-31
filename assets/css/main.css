@@ -261,6 +261,7 @@ a:link {
     border: none;
     border-radius: .28571429rem;
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-bottom: 10px;
 }
 
 .card-block {
@@ -308,8 +309,7 @@ a:link {
 .porduct-box img{
 	width: 250px;
     height: 250px; 
-    margin: 5px;
-    padding: 5px;
+    
 }
 .product-title{
 	position: absolute;
