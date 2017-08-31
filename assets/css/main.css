@@ -308,6 +308,8 @@ a:link {
 .porduct-box img{
 	width: 250px;
     height: 250px; 
+    margin: 5px;
+    padding: 5px;
 }
 .product-title{
 	position: absolute;
@@ -370,7 +372,10 @@ a:link {
 		padding: 0 80px;
 	}
 }
-
+@media (min-width: 768px){
+		.owl-theme .owl-dots .owl-dot{zoom: 0.8 !important;
+	}
+}
 
 
 
